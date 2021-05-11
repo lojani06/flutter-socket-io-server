@@ -24,10 +24,10 @@ io.on('connection', client => {
     client.emit('active-bands',bands.getBans());
 
 
-    client.on('mensaje',(data)=>{
-       console.log(data)
-       io.emit('mensaje',{admin:'nueva reunion'})
-    });
+    // client.on('mensaje',(data)=>{
+    //    console.log(data)
+    //    io.emit('mensaje',{admin:'nueva reunion'})
+    // });
 
 
     // client.on('emitir-mensaje',(payload)=>{
